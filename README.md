@@ -9,4 +9,4 @@ Dibuat dengan Hugo dan Bootstrap 5. Jalankan di terminal `hugo server -D`, untuk
 
 ## Projek
 
-- Untuk maintenence ada di branch [```ssg```](./tree/ssg).
+- Untuk maintenence ada di branch [_ssg_](https://github.com/adilhyz/kasircuy-portfolio/tree/ssg).
