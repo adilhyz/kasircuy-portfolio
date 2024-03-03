@@ -1,8 +1,6 @@
-# baseURL: "https://hugo-profile.netlify.app"
-baseURL: ""
-# baseURL: "https://adilhyz.github.io/kasircuy-portfolio/"
+baseURL: "/kasircuy-portfolio/"
 languageCode: "en-us"
-title: "Kasircuy | Portfolio"
+title: "Kasirsan | Portfolio"
 theme: hugo-profile
 
 outputs:
@@ -58,7 +56,7 @@ params:
   title: "Hugo Profile"
   description: Text about my cool site
   # staticPath: ""  # The path to serve the static files from
-  favicon: "/kasira.png"
+  favicon: kasira.png
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
@@ -126,10 +124,10 @@ params:
   hero:
     enable: true
     intro: "Portfolio"
-    title: "KasirCuy."
+    title: "KasirSan."
     subtitle: "Aplikasi Kasir Sederhana"
-    content: "Dibuat dengan Laravel 10. Yang dimana mempermudah membuat website dinamis, berasa fantasi, dan berbagai fungsi."
-    image: /images/kasira.png
+    content: "Dibuat dengan Laravel 10. Yang dimana mempermudah membuat website dinamis, dan berbagai fungsi."
+    image: kasira.png
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
@@ -154,7 +152,7 @@ params:
   # About
   about:
     enable: false
-    title: "kasircuy"
+    title: "kasirsan"
     image: "/images/me.png"
     content: |-
       I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. 
@@ -222,7 +220,6 @@ params:
           - Penyelesaian Dashboard dan juga aktif navbar nya.
           - Penyelesaian juga Produk sama navbar aktif.
           - Memperbaiki bagian backend karena frontend sudah lumayan berjalan.
-          - Created a frontend design for a product.
 
   # Selengkapnya
   selengkapnya:
@@ -260,43 +257,47 @@ params:
           - Dashboard disini menampilkan detail Produk Pelanggan Dan User.
           - User terbagi menjadi 2 yakni Petugas Dan Admin.
 
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-        featuredLink:
-          enable: true
-          name: "My academic record"
-          url: "https://example.com"
-      - title: "High School"
-        school:
-          name: "Thomas Jefferson High School for Science and Technology."
-          url: "https://example.org"
-        GPA: "4.2 out of 5.0"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
+        #Extracurricular Activities
+            #- Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            #- Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+        #featuredLink:
+          #enable: false
+          #name: "My academic record"
+          #url: "https://example.com"
+      #- title: "High School"
+        #school:
+          #name: "Thomas Jefferson High School for Science and Technology."
+          #url: "https://example.org"
+        #GPA: "4.2 out of 5.0"
+        #featuredLink:
+          #enable: true
+          #name: "Anjay"
+          # url: "https://example.com"
 
   # Pratinjau
   pratinjau:
     enable: true
     title: "Pratinjau"
     items:
-      - title: Google kickstart runner
-        content: I solved all problems with optimal solution.
+      - title: Halaman Home
+        content: Pratinjau Halaman Beranda.
         #url: https://example.com
         image: /images/home.png
-      - title: Facebook Hackathon Winner
-        content: Developed a product using Artificial Intelligence.
+      - title: Halaman About
+        content: Pratinjau Halaman Tentang.
         image: /images/about.png
-      - title: Hugo Profile
-        content: Developed a theme and getting 1K+ downloads per month.
-        url: "https://github.com/adilhyz"
-        image: /images/achievment.jpg
-      - title: Microsoft Imagine Runner
-        content: We are developed a product which can help others.
-      - title: Google Summer of Code
-        content: Contributed to a open source project.
-        url: https://example.com
+      - title: Halaman Dashboard
+        content: Pratinjau Halaman Dashboard.
+        image: /images/dashboard.png
+      #- title: Hugo Profile
+        #content: Developed a theme and getting 1K+ downloads per month.
+        #url: "https://github.com/adilhyz"
+        #image: /images/post.jpg
+      #- title: Microsoft Imagine Runner
+        #content: We are developed a product which can help others.
+      #- title: Google Summer of Code
+        #content: Contributed to a open source project.
+        #url: https://example.com
 
   # projects
   projects:
@@ -390,7 +391,7 @@ params:
   terms:
     read: "Read"
     toc: "Table Of Contents"
-    copyright: "KasirCuy"
+    copyright: "KasirSan"
     copygigir: "Adilhyz"
     pageNotFound: "Page not found"
     emailText: "Check out this site"
