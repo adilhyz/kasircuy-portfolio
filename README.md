@@ -1,5 +1,5 @@
 <p align='center'>
-  <img src='./fav.png' width='300px' height='300px' alt='KasirCuy'/>
+  <img src='./kasira.png' width='300px' height='300px' alt='KasirCuy'/>
 </p>
 
 # Bootstrap 5 + Hugo
@@ -10,3 +10,4 @@ Dibuat dengan Hugo dan Bootstrap 5. Jalankan di terminal `hugo server -D`, untuk
 ## Projek
 
 - Untuk maintenence ada di branch [_ssg_](https://github.com/adilhyz/kasircuy-portfolio/tree/ssg).
+- made with love by [adilhyz](https://github.com/adilhyz)
